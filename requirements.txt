@@ -11,5 +11,4 @@ ftfy==6.1.1
 syft==0.8.2
 seaborn==0.13.0
 setuptools>=65.0
-torch==2.1.0
-utils==1.0.0  # Add utility package here if it's a custom or external one
+torch==2.1.0  # Update torch to match syft dependency
