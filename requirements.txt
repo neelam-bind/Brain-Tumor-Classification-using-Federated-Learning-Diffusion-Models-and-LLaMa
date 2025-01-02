@@ -1,13 +1,14 @@
-streamlit==1.20.0  # Lower version of Streamlit
-pandas==1.5.3  # Compatible with Syft
-numpy==1.24.4  # Compatible with Syft
+streamlit==1.20.0
+pandas==1.5.3
+numpy==1.24.4
 matplotlib==3.8.0
 scikit-learn==1.3.1
-Pillow==9.5.0  # Lower version of Pillow
-transformers==4.32.0
+Pillow==9.5.0
+transformers==4.34.0  # Updated to resolve conflict with Syft
 diffusers==0.23.0
 accelerate==0.23.0
 ftfy==6.1.1
 syft==0.8.2
 seaborn==0.13.0
 setuptools>=65.0
+torch==2.1.0  # Added for PyTorch-based operations
