@@ -4,9 +4,10 @@ numpy==1.24.4  # Compatible with Syft
 matplotlib==3.8.0
 scikit-learn==1.3.1
 Pillow==9.5.0  # Lower version of Pillow
-diffusers==0.24.0
-transformers==4.34.0  # Compatible with Syft
+transformers==4.32.0
+diffusers==0.23.0
 accelerate==0.23.0
 ftfy==6.1.1
 syft==0.8.2
 seaborn==0.13.0
+setuptools>=65.0
