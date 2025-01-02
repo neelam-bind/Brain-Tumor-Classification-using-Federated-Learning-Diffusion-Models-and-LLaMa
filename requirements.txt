@@ -11,5 +11,5 @@ ftfy==6.1.1
 syft==0.8.2
 seaborn==0.13.0
 setuptools>=65.0
-torch==2.1.0
+torch==2.0.0  # or a version compatible with Python 3.12
 distutils==1.0.0  # Make sure this is compatible with your system
